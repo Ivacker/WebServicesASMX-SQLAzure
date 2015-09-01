@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebServices_SQLAzure", "WebServices_SQLAzure\WebServices_SQLAzure.vbproj", "{C462AE06-7194-40D7-881D-445FA0EC2A05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7FF2C396-8843-4483-893A-0316D401BCD5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{DB0B84CE-844B-47D1-884E-6439FAC15B37}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\WebServicesSQLAzure-WAWS-dev.json = PublishScripts\Configurations\WebServicesSQLAzure-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "winConsumeWerbServices-SQLAzure-WordPress", "winConsumeWerbServices-SQLAzure-WordPress\winConsumeWerbServices-SQLAzure-WordPress.vbproj", "{F25A008E-06D5-43C0-B8EF-024A749C245D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C462AE06-7194-40D7-881D-445FA0EC2A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C462AE06-7194-40D7-881D-445FA0EC2A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C462AE06-7194-40D7-881D-445FA0EC2A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C462AE06-7194-40D7-881D-445FA0EC2A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25A008E-06D5-43C0-B8EF-024A749C245D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25A008E-06D5-43C0-B8EF-024A749C245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25A008E-06D5-43C0-B8EF-024A749C245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25A008E-06D5-43C0-B8EF-024A749C245D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB0B84CE-844B-47D1-884E-6439FAC15B37} = {7FF2C396-8843-4483-893A-0316D401BCD5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ivacker.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebServices_SQLAzure\\WebServices_SQLAzure.vbproj
+		SccProjectName1 = WebServices_SQLAzure
+		SccLocalPath1 = WebServices_SQLAzure
+		SccProjectUniqueName2 = winConsumeWerbServices-SQLAzure-WordPress\\winConsumeWerbServices-SQLAzure-WordPress.vbproj
+		SccProjectName2 = winConsumeWerbServices-SQLAzure-WordPress
+		SccLocalPath2 = winConsumeWerbServices-SQLAzure-WordPress
+	EndGlobalSection
+EndGlobal
